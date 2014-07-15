@@ -1,0 +1,41 @@
+Source: python-characteristic
+Priority: optional
+Maintainer: Matthias Klose <doko@debian.org>
+Uploaders: Free Ekanayaka <freee@debian.org>
+Build-Depends: debhelper (>= 9), dh-python,
+  python-all, python-setuptools, python-pytest,
+  python3-all-dev, python3-setuptools, python3-pytest,
+Build-Depends-Indep: python3-sphinx
+Standards-Version: 3.9.5
+Section: python
+Homepage: https://pypi.python.org/pypi/characteristic/
+
+Package: python-characteristic
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Description: helper for implementing attribute-related object protocols (Python 2)
+ characteristic is Python package with class decorators that ease the chores
+ of implementing the most common attribute-related object protocols.
+ .
+ You just specify the attributes to work with and characteristic gives you:
+ .
+   - a nice human-readable __repr__,
+   - a complete set of comparison methods,
+   - and a kwargs-based initializer (that cooperates with your existing one)
+ .
+ without writing dull boilerplate code again and again.
+
+Package: python3-characteristic
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: helper for implementing attribute-related object protocols (Python 3)
+ characteristic is Python package with class decorators that ease the chores
+ of implementing the most common attribute-related object protocols.
+ .
+ You just specify the attributes to work with and characteristic gives you:
+ .
+   - a nice human-readable __repr__,
+   - a complete set of comparison methods,
+   - and a kwargs-based initializer (that cooperates with your existing one)
+ .
+ without writing dull boilerplate code again and again.
