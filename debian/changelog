@@ -1,3 +1,9 @@
+python-characteristic (14.3.0-1pexip1) pexip; urgency=medium
+
+  * Migrate to Stretch
+
+ -- John-Mark Bell <jmb@pexip.com>  Tue, 10 Jul 2018 00:20:09 +0000
+
 python-characteristic (14.3.0-1) unstable; urgency=medium
 
   * New upstream release.
