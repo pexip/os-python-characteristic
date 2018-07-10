@@ -7,7 +7,7 @@ Build-Depends: debhelper (>= 9), dh-python,
   python-all, python-setuptools, python-pytest,
   python3-all-dev, python3-setuptools, python3-pytest,
 Build-Depends-Indep: python3-sphinx
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Section: python
 Homepage: https://pypi.python.org/pypi/characteristic/
 XS-Pexip-Upstream: http://ftp.debian.org/debian/ stretch

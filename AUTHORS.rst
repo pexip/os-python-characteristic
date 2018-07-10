@@ -10,6 +10,10 @@ It’s inspired by Twisted’s `FancyEqMixin <http://twistedmatrix.com/documents
 
 The following folks helped forming ``characteristic`` into what it is now:
 
+- `Adam Dangoor <https://github.com/adamtheturtle>`_
 - `Glyph <https://github.com/glyph>`_
 - `Itamar Turner-Trauring <https://github.com/itamarst>`_
 - `Jean-Paul Calderone <https://github.com/exarkun>`_
+- `Julian Berman <https://github.com/julian>`_
+- `Richard Wall <https://github.com/wallrj>`_
+- `Tom Prince <https://github.com/tomprince>`_

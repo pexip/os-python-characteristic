@@ -1,3 +1,4 @@
 version=3
 opts=uversionmangle=s/(\d)[_\.\-\+]?((RC|rc|pre|dev|beta|alpha|b|a)[\-\.]?\d*)$/$1~$2/ \
-http://pypi.python.org/packages/source/c/characteristic/characteristic-(\d.*)\.(?:tgz|tar\.(?:gz|bz2|xz))
+#http://pypi.python.org/packages/source/c/characteristic/characteristic-(\d.*)\.(?:tgz|tar\.(?:gz|bz2|xz))
+http://pypi.debian.net/characteristic/characteristic-(.*).tar.gz

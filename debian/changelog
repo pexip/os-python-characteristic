@@ -1,3 +1,9 @@
+python-characteristic (14.3.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Matthias Klose <doko@debian.org>  Thu, 03 Sep 2015 20:06:31 +0200
+
 python-characteristic (0.1.0-1pexip1) pexip; urgency=low
 
   * Prepare Pexip packaging
